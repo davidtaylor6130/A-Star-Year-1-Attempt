@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImplodeFrameworkNew", "ImplodeFrameworkNew\ImplodeFrameworkNew.vcxproj", "{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Debug|x64.ActiveCfg = Debug|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Debug|x64.Build.0 = Debug|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Debug|x86.ActiveCfg = Debug|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Debug|x86.Build.0 = Debug|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Release|x64.ActiveCfg = Release|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Release|x64.Build.0 = Release|x64
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Release|x86.ActiveCfg = Release|Win32
+		{A4170EBA-6ECC-415A-8868-38A2CB2EABAB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EFD1C7B-8C32-4950-930E-392AE4ABF62D}
+	EndGlobalSection
+EndGlobal
