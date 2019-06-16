@@ -24,17 +24,21 @@ void tile::update()
 {
 	text->Update();
 
-	if (startPoint)
+	if (startPoint == true)
 	{
 		textureSelection.x = 150;
 	}
-	if (endPoint)
+	else if (endPoint == true)
 	{
 		textureSelection.x = 100;
 	}
-	if (isItBlocked)
+	else if (isItBlocked == true)
 	{
 		textureSelection.x = 200;
+	}
+	else
+	{
+		textureSelection.x = 0;
 	}
 
 }
