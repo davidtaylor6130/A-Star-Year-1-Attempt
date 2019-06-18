@@ -33,6 +33,11 @@ Text::~Text()
 void Text::UpdateText(const char * inputText)
 {
 	text = inputText;
+
+	SDL_QueryTexture(mTexture, NULL, NULL, &texW, &texH);
+	dstrect = { x, y, texW, texH };
+	surface = TTF_RenderText_Solid(font, text, color);
+	mTexture = SDL_CreateTextureFromSurface(renderer, surface);
 }
 
 void Text::UpdatePosition(int inputX, int inputY)

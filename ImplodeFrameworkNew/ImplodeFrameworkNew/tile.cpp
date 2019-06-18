@@ -12,7 +12,7 @@ tile::tile(SDL_Renderer* renderer, Vector2D position, bool inputVisualShowing)
 		textureSelection = Rect2D(0, 0, 50, 50);
 		sprite = new Sprite("aStarWorking.png", mRenderer);
 		SDL_Color colour = { 250,250,250 };
-		text = new Text("ttf/8-BIT_WONDER.ttf", 10, "120", colour, mRenderer, false, 25, 25, mPosition.x + 10, mPosition.y + 10);
+		text = new Text("ttf/8-BIT_WONDER.ttf", 10, " ", colour, mRenderer, false, 25, 25, mPosition.x + 10, mPosition.y + 10);
 	}
 }
 
@@ -35,6 +35,10 @@ void tile::update()
 	else if (isItBlocked == true)
 	{
 		textureSelection.x = 200;
+	}
+	else if (isItPath == true)
+	{
+		textureSelection.x = 50;
 	}
 	else
 	{

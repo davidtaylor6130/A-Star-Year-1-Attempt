@@ -4,8 +4,8 @@
 #define rows 14
 
 
-#define startPosition Vector2D(10,10)
-#define endPosition Vector2D(2,2)
+#define startPosition Vector2D(0,0)
+#define endPosition Vector2D(24,13)
 
 
 #include "GameScreen.h"
@@ -13,12 +13,11 @@
 #include "tile.h"
 
 using namespace Events;
+using namespace std;
 
 class Level1 : public GameScreen
 {
 public:
-	int xPos;
-	int yPos;
 	
 	bool KeyDown = false;
 	Vector2D startNode;
@@ -30,9 +29,6 @@ public:
 	int heightOfTilePlaced = rows;
 
 	tile* tilePlaced[rows][coloms];
-
-	Rect2D* location;
-	Rect2D* spriteLocation;
 
 	Level1(SDL_Renderer* renderer);
 	~Level1();

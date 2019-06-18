@@ -11,6 +11,7 @@ public:
 	bool startPoint;
 	bool endPoint;
 	bool isItBlocked;
+	bool isItPath = false;
 
 	int pathFindingValue;
 
