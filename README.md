@@ -1,5 +1,5 @@
 # A - Star 
-This Project was created due to my passion of AI and coding. I created a pathfinding program. This project was worked by me using the ImplodeFramework (a SDL wrapper to allow for easy and fast programming for personal projects)
+This Project was created due to my passion of AI and coding. This project was worked by me using the ImplodeFramework (a SDL wrapper to allow for easy and fast programming for personal projects created with my friends)
 I'm very pleased in the program I have made due to the time restraints and that I learned independently how to do semi-effective Ai. In one week.
 
 
@@ -17,14 +17,14 @@ I worked on this because I was excited for my AI module in university. This was 
 
 This was creates using the ImplodeFramework and created over 1 week.
 
- - I firstly focused on the visual aspect so I could see what the at was doing. So I created the squares the user input and the text element
- - next I focused on learning some basics of pathfinding / A*
- - after learning the basics I focused of calculating the cost of each move the AI had to take.
- - after this I had to combine the two systems and fix errors
+ - I firstly focused on the visual aspect so I could see what the AI was doing. So I created the squares the user input and the text element
+ - Next I focused on learning some basics of pathfinding (A*)
+ - After learning the basics I focused of calculating the cost of each move the AI had to take.
+ - After this I had to combine the two systems and fix errors
 
  
  ## Future Plans
- When looking back at my code the main benefit of this project was to allow me to figure out how to comment efficiently
+ When looking back at my code the main benefit of this project was to allow me to figure out how to comment efficiently and improving my ability to research new topics.
  I would change:
  - A bug where the AI would stay in a corner
  - A bug where the AI would clip corners
