@@ -1,2 +1,17 @@
-﻿  Level1.cpp
+﻿  Animation.cpp
+C:\Users\co0ki\Documents\GitHub\aStar\ImplodeFrameworkNew\ImplodeFrameworkNew\Animation.cpp(13,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Collisions.cpp
+  Events.cpp
+  GameScreen.cpp
+  GameScreenManager.cpp
+  Level1.cpp
+  Source.cpp
+  Sprite.cpp
+C:\Users\co0ki\Documents\GitHub\aStar\ImplodeFrameworkNew\ImplodeFrameworkNew\Animation.cpp(14,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\co0ki\Documents\GitHub\aStar\ImplodeFrameworkNew\ImplodeFrameworkNew\Sprite.cpp(30,16): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+  Text.cpp
+  music.cpp
+  tile.cpp
+  Generating Code...
+C:\Users\co0ki\Documents\GitHub\aStar\ImplodeFrameworkNew\ImplodeFrameworkNew\SDL\include\SDL_render.h(128): message : see declaration of 'SDL_Texture'
   ImplodeFrameworkNew.vcxproj -> C:\Users\co0ki\Documents\GitHub\aStar\ImplodeFrameworkNew\x64\Debug\ImplodeFrameworkNew.exe
