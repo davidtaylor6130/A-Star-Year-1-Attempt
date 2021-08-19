@@ -1,4 +1,5 @@
 # A - Star 
+## (Personal attempt between after compleating my first year of university)
 This Project was created due to my passion of AI and coding. This project was worked by me using the ImplodeFramework (a SDL wrapper to allow for easy and fast programming for personal projects created with my friends)
 I'm very pleased in the program I have made due to the time restraints and that I learned independently how to do semi-effective Ai. In one week.
 
